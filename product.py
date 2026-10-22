@@ -1,4 +1,4 @@
-class product:
+class Product:
     def __init__(self, name, price, stock):
         self.stock = stock
         self.name = name
@@ -9,4 +9,3 @@ class product:
         def info(self):
             return f"{self.name} - ${self.price} : {self.stock}"
 
-        
